@@ -112,6 +112,8 @@ $ python -m blackjacksim.examples.basic_strategy_example
 Figure 2: Histogram and KDE plot of basic strategy results.
 </p>
 
+<center>
+
 | Statistic | Value |
 | --- | ----------- |
 | Count | 100,000 |
@@ -119,6 +121,8 @@ Figure 2: Histogram and KDE plot of basic strategy results.
 | St. Dev | $10.886 |
 | Max | $60.00 |
 | Min | $-60.00 |
+
+</center>
 
 As we may expect, the expected value of winnings is close to zero when using
 a near optimal strategy in the game of BlackJack.
