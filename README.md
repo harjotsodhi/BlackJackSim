@@ -4,7 +4,7 @@
 The purpose of this project is to implement a Python simulator for the game of
 BlackJack.
 
-This project allows users to easily simulate thousands of independent BlackJack
+This project allows users to easily simulate thousands of independent BlackJack games
 using a given strategy. The project also includes the ability to assess a
 strategy's performance over tens, thousands, or millions of games through
 evaluation metrics and plots.
