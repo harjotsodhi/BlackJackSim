@@ -103,7 +103,7 @@ with an initial bet size of $10 per game, using the "basic strategy".
 
 Summary tables and plots are also provided when the "summary" method is used.
 
-$ python -m blackjacksim.examples.basic_strategy_example
+    $ python -m blackjacksim.examples.basic_strategy_example
 
 <p align="center">
 <img src="https://github.com/harjotsodhi/BlackJackSim/blob/main/figure1.png?raw=true" width="640"\>
