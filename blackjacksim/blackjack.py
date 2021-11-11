@@ -105,6 +105,8 @@ class Simulator(object):
 
         Parameters
         ----------
+        num_cards: int
+            number of cards to deal
         """
         # draw n random cards from the deck (without replacement)
         ind = np.random.choice(self.deck.shape[0], size=num_cards, replace=False)
