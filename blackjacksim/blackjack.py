@@ -72,7 +72,8 @@ class Simulator(object):
             Optional histogram plot.
         """
         sim_stats(self.results)
-        plot_hist(self.results)
+        if plots:
+            plot_hist(self.results)
 
 
     ### private methods ###
