@@ -24,8 +24,3 @@ def read_strategy(csv_name="basic_strategy"):
     soft = df.iloc[17:26]
     split = df.iloc[26:]
     return hard, soft, split
-
-if __name__ == '__main__':
-    hard,soft, split = read_strategy()
-    print(hard)
-    print(hard.iloc[16,7])
